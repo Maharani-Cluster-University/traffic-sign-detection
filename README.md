@@ -30,6 +30,6 @@ STEPS: ------------------------
           pip install ultralytics
  STEP 4 : source venv/bin/activate  #activate virtual environment
  STEP 5 : any error modulenot found try pip install `module`
- STEP 5 : python detect.py #Run python file
+ STEP 5 : python detect-traffic.py --weights best_93.pt --source 0
 
 
