@@ -24,12 +24,18 @@ Download the [model](https://mega.nz/file/rV4HDQ5b#UfgDAMlVHvfzSr7PquE8HWx_6jhRm
 
 STEPS: ------------------------
  STEP 1 : Clone 
+ 
  STEP 2 : cd project-folder/yolov5
+ 
  STEP 3 : python -m venv venv  #create virtual environment
+ 
  STEP 4 : pip install torch
           pip install ultralytics
+          
  STEP 4 : source venv/bin/activate  #activate virtual environment
+ 
  STEP 5 : any error modulenot found try pip install `module`
- STEP 5 : python detect-traffic.py --weights best_93.pt --source 0
+ 
+ STEP 6 : python detect-traffic.py --weights best_93.pt --source 0
 
 
